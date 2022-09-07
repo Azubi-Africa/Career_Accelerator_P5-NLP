@@ -1,8 +1,8 @@
-# Python Homeworks
+# Live Project : Natural Language Processing
 
 ## Description
 
-This repository contains homeworks you shoud take. It will help you for the imcoming python assessment.
+This repository contains the ressources to start the NLP-related live project you shoud take. 
 
 # Assignments
 Find the list of the assignment to do bellow:
