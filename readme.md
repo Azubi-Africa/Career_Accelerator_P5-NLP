@@ -5,7 +5,7 @@
 This repository contains the ressources to start the NLP-related live project you shoud take. 
 
 # Assignments
-Find the list of the assignment to do bellow:
+Find the list of assignments bellow:
 - [Zindi NLP Challenge](/zindi_challenge/)
 
 ## Setup
