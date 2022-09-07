@@ -1,0 +1,7 @@
+pytest
+pandas
+scikit-learn
+seaborn
+fastai
+simpletransformers
+nltk
