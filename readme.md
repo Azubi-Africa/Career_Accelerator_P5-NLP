@@ -15,11 +15,11 @@ You need to have [`Python3`](https://www.python.org/) on your system. Then you c
 
 - Windows:
         
-        python -m venv venv; venv\Scripts\activate; python -m pip install --upgrade pip; python -m pip install -qr requirements.txt  
+        python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
 
 - Linux & MacOs:
         
-        python3 -m venv venv; source venv/bin/activate; python -m pip install --upgrade pip; python -m pip install -qr requirements.txt  
+        python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
 
 <!-- ## Evaluation
 This evaluation will be automatically grade, so please follow the instructions carefully. 
