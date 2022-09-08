@@ -7,3 +7,5 @@ simpletransformers
 nltk
 spacy
 gensim
+plotly
+matplotlib
