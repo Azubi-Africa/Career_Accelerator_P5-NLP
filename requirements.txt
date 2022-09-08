@@ -6,3 +6,4 @@ fastai
 simpletransformers
 nltk
 spacy
+gensim
