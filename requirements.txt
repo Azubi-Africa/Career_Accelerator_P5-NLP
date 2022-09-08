@@ -1,4 +1,7 @@
 pytest
+wheel
+setuptools
+backports.zoneinfo
 pandas
 scikit-learn
 seaborn
@@ -8,4 +11,3 @@ nltk
 spacy
 gensim
 plotly
-matplotlib
