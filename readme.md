@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the ressources to start the NLP-related live project you shoud take. The bellow assignments will introduce you in Unstructured data exploistation using ML. 
+This repository contains the ressources to start the NLP-related live project you shoud take. The bellow assignments will introduce you in Unstructured data exploitation, especially Natural Language Processing data, using ML. 
 
 # Assignments
 Find the list of assignments bellow:
