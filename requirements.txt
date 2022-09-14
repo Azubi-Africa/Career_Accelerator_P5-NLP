@@ -6,6 +6,7 @@ pandas
 scikit-learn
 seaborn
 fastai
+transformers
 simpletransformers
 nltk
 spacy
