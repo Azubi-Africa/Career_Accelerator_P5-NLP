@@ -13,3 +13,5 @@ spacy
 gensim
 plotly
 notebook
+jupyter
+ipywidgets
