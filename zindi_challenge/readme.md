@@ -2,11 +2,19 @@
 
 # ZINDI NLP CHALLENGE : [To Vaccinate or Not to Vaccinate](https://zindi.africa/competitions/zindiweekendz-learning-to-vaccinate-or-not-to-vaccinate/)
 
-
+## Repository description
 This repository contains the basic files to start the NLP Live Project based on the Zindi's challenge [To Vaccinate or Not to Vaccinate: It’s not a Question by #ZindiWeekendz](https://zindi.africa/competitions/zindiweekendz-learning-to-vaccinate-or-not-to-vaccinate/).
 
 - The folder `data` contains the dataset.
 - The folder `notebooks` contains sample notebooks to get started.
+
+
+## Instructions
+1. Solve this challenge by applying your DS knowledge to finetune a pretrain Hugging Face model. [Read more](https://medium.com/mlearning-ai/fine-tuning-bert-for-tweets-classification-ft-hugging-face-8afebadd5dbf)
+1. Create a Gradio app based on your trained model. [Read more](https://huggingface.co/course/chapter9/1)
+1. Upload your Hugging Face model (and pipeline), and Deploy your Gradio app on the ugging Face platform. [Read more](https://huggingface.co/docs/hub/models-uploading)
+1. Dockerize your Gradio app to get it ready to be deployed to any cloud hub. [Watch this](https://www.youtube.com/watch?v=f6zJwK-pCJo)
+
 
 ## Challenge Description
 This challenge was designed specifically as a #ZindiWeekendz hackathon (To Vaccinate or Not to Vaccinate: It’s not a Question). We are re-opening the hackathon as a Knowledge Challenge, to allow the Zindi community to learn and test their skills. To help you all out, we’ve created a new Tutorials tab with helpful resources from the community. We encourage Zindians to share their code on the discussion board so that everyone in our community can learn from and support one another.

@@ -4,7 +4,7 @@
 
 This repository contains the ressources to start the NLP-related live project you shoud take. The below assignments will introduce you in Unstructured data exploitation, especially Natural Language Processing data, using ML. 
 
-# Assignments
+## Assignments
 Find the list of assignments below:
 - [Zindi NLP Challenge](/zindi_challenge/)
 
