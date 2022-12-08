@@ -27,6 +27,13 @@ This evaluation will be automatically grade, so please follow the instructions c
 
 You can run this command below being at the root of the repository to be sure your solutions are the good ones before to push your solutions.
 
+The both long command-lines have a same structure, they pipe multiple commands using the symbol **;** but you may manually execute them one after another.
+
+1. **Create the Python's virtual environment** that isolates the required libraries of the project to avoid conflicts;
+2. **Activate the Python's virtual environment** so that the Python kernel & libraries will be those of the isolated environment;
+3. **Upgrade Pip, the installed libraries/packages manager** to have the up-to-date version that will work correctly;
+4. **Install the required libraries/packages** listed in the `requirements.txt` file so that it will be allow to import them into the python's scripts and notebooks without any issue.
+
 Be sure the virtual environment `venv` is activated then thype the command below: 
 
 ```command
