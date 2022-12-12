@@ -1,9 +1,19 @@
 import pandas as pd
+import numpy as np
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
+from sklearn import preprocessing 
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+# preprocessing.OneHotEncoder, preprocessing.StandardScaler
+from sklearn.pipeline import Pipeline
+from sklearn import compose # ColumnTransformer
+# Config
+from zindi_challenge.scripts.config import *
 # Models
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
+from sklearn import linear_model 
+from sklearn import svm 
+from sklearn import ensemble 
 
 #######################################################################
 
@@ -48,6 +58,22 @@ def remove_rows_with_Nan(data):
 def processing(dataset:pd.DataFrame = data_gathering()):
     """This function will process the dataset then return a dataset ready-for-modelling
     """
+
+    numerical_cols = dataset.select_dtypes(include=np.number).columns.tolist()
+    categorical_cols = dataset.select_dtypes(exclude=np.number).columns.tolist()
+
+    # categorical_attributes = list(forest_fire.select_dtypes(include=['object']).columns)
+    # numerical_attributes = list(dataset.select_dtypes(include=['float64', 'int64']).columns)
+
+    num_pipeline = Pipeline([('imputer', SimpleImputer(strategy='median')),
+                            ('drop_attributes', AttributeDeleter()),
+                            ('std_scaler', preprocessing.StandardScaler()),
+                            ])
+    full_pipeline = compose.ColumnTransformer([('num', num_pipeline, numerical_attributes),
+                                    ('cat', OneHotEncoder(), categorical_attributes),
+                                    ])
+
+    train = full_pipeline.fit_transform(dataset)
     
     columns_to_keep = []
     df_dataset_processed = None
@@ -70,5 +96,5 @@ def modelling(y_col):
     # Instantiate ML models
 
     # Train ML models
-    model = LogisticRegression().fit(X, y)
+    model = linear_model.LogisticRegression().fit(X, y)
     return model
