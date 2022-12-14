@@ -1,4 +1,4 @@
-# Live Project : Natural Language Processing
+# Project : Natural Language Processing
 
 ## Description
 
@@ -21,12 +21,6 @@ You need to have [`Python3`](https://www.python.org/) on your system. Then you c
         
         python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
 
-**NB:** For MacOs users, please install `Xcode` if you have an issue.
-<!-- ## Evaluation
-This evaluation will be automatically grade, so please follow the instructions carefully. 
-
-You can run this command below being at the root of the repository to be sure your solutions are the good ones before to push your solutions.
-
 The both long command-lines have a same structure, they pipe multiple commands using the symbol **;** but you may manually execute them one after another.
 
 1. **Create the Python's virtual environment** that isolates the required libraries of the project to avoid conflicts;
@@ -34,12 +28,13 @@ The both long command-lines have a same structure, they pipe multiple commands u
 3. **Upgrade Pip, the installed libraries/packages manager** to have the up-to-date version that will work correctly;
 4. **Install the required libraries/packages** listed in the `requirements.txt` file so that it will be allow to import them into the python's scripts and notebooks without any issue.
 
-Be sure the virtual environment `venv` is activated then thype the command below: 
+**NB:** For MacOs users, please install `Xcode` if you have an issue.
 
-```command
-python -m pytest -v
-```
-
-```command
-python -m pytest -v tests/<exercise_name>
-``` -->
+## Ressources
+1. [Quick intro to NLP](https://www.youtube.com/watch?v=CMrHM8a3hqw)
+1. [Getting Started With Hugging Face in 15 Minutes](https://www.youtube.com/watch?v=QEaBAZQCtwE)
+1. [Fine-tuning a Neural Network explained](https://www.youtube.com/watch?v=5T-iXNNiwIs)
+1. [Fine-Tuning-DistilBert - Hugging Face Transformer for Poem Sentiment Prediction | NLP](https://www.youtube.com/watch?v=zcW2HouIIQg)
+1. [Introduction to NLP: Playlist](https://www.youtube.com/playlist?list=PLM8wYQRetTxCCURc1zaoxo9pTsoov3ipY)
+<!-- 1. [](https://www.youtube.com/)
+1. [](https://www.youtube.com/) -->
