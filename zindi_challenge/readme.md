@@ -1,9 +1,9 @@
 ![]("https://zindi-public-release.s3.eu-west-2.amazonaws.com/uploads/competition/image/93/header_4dd2027d-77d5-415c-aae3-d5ae69b5f9b8.png")
 
-# ZINDI NLP CHALLENGE : [To Vaccinate or Not to Vaccinate](https://zindi.africa/competitions/zindiweekendz-learning-to-vaccinate-or-not-to-vaccinate/)
+# ZINDI NLP CHALLENGE : [To Vaccinate or Not to Vaccinate](https://zindi.africa/competitions/to-vaccinate-or-not-to-vaccinate)
 
 ## Repository description
-This repository contains the basic files to start the NLP Live Project based on the Zindi's challenge [To Vaccinate or Not to Vaccinate: It’s not a Question by #ZindiWeekendz](https://zindi.africa/competitions/zindiweekendz-learning-to-vaccinate-or-not-to-vaccinate/).
+This repository contains the basic files to start the NLP Live Project based on the Zindi's challenge [To Vaccinate or Not to Vaccinate: It’s not a Question by #ZindiWeekendz](https://zindi.africa/competitions/to-vaccinate-or-not-to-vaccinate).
 
 - The folder `data` contains the dataset.
 - The folder `notebooks` contains sample notebooks to get started.
